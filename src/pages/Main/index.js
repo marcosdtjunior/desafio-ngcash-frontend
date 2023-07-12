@@ -22,9 +22,6 @@ function Main() {
   useEffect(() => {
     getUserBalance();
     getUsers();
-    inputDepRef.current.value = '';
-    inputWitRef.current.value = '';
-    inputTraRef.current.value = '';
   }, []);
 
   function returnToLogin() {
@@ -41,6 +38,9 @@ function Main() {
       });
 
       setBalance(response.data.accountBalance);
+      inputDepRef.current.value = '';
+      inputWitRef.current.value = '';
+      inputTraRef.current.value = '';
 
     } catch (error) {
       setError(error.response.data.message);
@@ -75,8 +75,8 @@ function Main() {
         }
       });
 
-      inputDepRef.current.value = '';
       getUserBalance();
+      setDepositValue(0);
 
     } catch (error) {
       setError(error.response.data.message);
@@ -91,8 +91,8 @@ function Main() {
         }
       });
 
-      inputWitRef.current.value = '';
       getUserBalance();
+      setWithdrawValue(0);
 
     } catch (error) {
       setError(error.response.data.message);
@@ -110,8 +110,8 @@ function Main() {
         }
       });
 
-      inputTraRef.current.value = '';
       getUserBalance();
+      setTransferValue(0);
 
     } catch (error) {
       setError(error.response.data.message);
