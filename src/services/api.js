@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export default axios.create({
-    baseURL: 'http://localhost:5000',
+    baseURL: 'https://api-my-bank.vercel.app/',
     timeout: 10000,
     headers: { 'Content-Type': 'application/json' }
 });
