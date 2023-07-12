@@ -1,0 +1,123 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 16px;
+
+    position: fixed;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    font-size: 20px;
+}
+
+.panels {
+    width: 390px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid lightgray;
+    border-radius: 20px;
+
+    padding: 20px;
+}
+
+.userPanel {
+    width: 350px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 25px 0;
+}
+
+.userPanel h3 {
+    font-size: 22px;
+}
+
+.operationsPanel {
+    width: 350px;
+
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.operationsPanel button {
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    height: 30px;
+    width: 170px;
+    text-align: center;
+}
+
+.operationsPanel input {
+    height: 40px;
+    width: 120px;
+}
+
+.depositPanel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
+.depositPanel button {
+    background-color: green;
+}
+
+.withdrawPanel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
+.withdrawPanel button {
+    background-color: red;
+}
+
+.transferPanel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 25px;
+}
+
+.transferPanel button {
+    background-color: rgb(32, 102, 207);
+}
+
+.userTransfer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span {
+    color: red;
+    font-size: large;
+    text-align: center;
+    margin: 5px 0;
+}
