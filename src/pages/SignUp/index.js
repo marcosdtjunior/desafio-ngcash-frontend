@@ -22,14 +22,14 @@ function SignUp() {
         username, password
       });
 
-      navigate('/');
+      navigate('/signIn');
     } catch (error) {
       setError(error.response.data.mensagem);
     }
   }
 
   function backToLogin() {
-    navigate('/');
+    navigate('/signIn');
   }
 
   return (
