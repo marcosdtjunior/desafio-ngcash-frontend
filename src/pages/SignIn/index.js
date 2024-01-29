@@ -48,7 +48,7 @@ function SignIn() {
   return (
     <div className='container'>
       <form className='form-sign-in'>
-        <h2>My Bank - Banco Digital</h2>
+        <h2>Login</h2>
         <div className='inputs' onClick={(e) => setError('')}>
           <input
             type="text"
