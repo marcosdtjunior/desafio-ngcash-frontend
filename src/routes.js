@@ -14,7 +14,7 @@ function ProtectedRoutes({ redirectTo }) {
 function MainRoutes() {
   return (
     <Routes>
-      <Route path="/" element={<SignIn />} />
+      <Route path="/signIn" element={<SignIn />} />
       <Route path="/signUp" element={<SignUp />} />
 
       <Route element={<ProtectedRoutes redirectTo='/' />}>
