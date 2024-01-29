@@ -26,7 +26,7 @@ function Main() {
 
   function returnToLogin() {
     clearAll();
-    navigate('/');
+    navigate('/signIn');
   }
 
   async function getUserBalance() {
