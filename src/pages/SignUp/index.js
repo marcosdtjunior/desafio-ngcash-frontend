@@ -35,7 +35,7 @@ function SignUp() {
   return (
     <div className='container'>
       <form className='form-sign-in'>
-        <h2>Cadastro My Bank</h2>
+        <h2>Cadastro</h2>
         <div className='inputs' onClick={(e) => setError('')}>
           <input
             type="text"
