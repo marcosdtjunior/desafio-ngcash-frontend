@@ -63,9 +63,11 @@ function SignIn() {
             onChange={(e) => setPassword(e.target.value)}
           />
         </div>
-        <div className='signInButtons'>
-          <button onClick={handleSubmit}>Login</button>
-          <button onClick={registerUser}>Cadastre-se</button>
+        <div className='buttons'>
+          <div className='signInButtons'>
+            <button onClick={handleSubmit}>Login</button>
+            <button onClick={registerUser}>Cadastre-se</button>
+          </div>
         </div>
         {error && <span>{error}</span>}
       </form>
