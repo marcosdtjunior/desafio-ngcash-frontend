@@ -2,7 +2,6 @@ button {
   all: unset;
   height: 48px;
   cursor: pointer;
-  background-color: purple;
 }
 
 button:hover {
