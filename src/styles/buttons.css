@@ -8,11 +8,11 @@ button:hover {
   opacity: 0.9;
 }
 
-.buttons {
+/* .buttons {
   width: 100%;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
+} */
