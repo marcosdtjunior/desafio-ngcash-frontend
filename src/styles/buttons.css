@@ -2,17 +2,9 @@ button {
   all: unset;
   height: 48px;
   cursor: pointer;
+  width: 100%;
 }
 
 button:hover {
   opacity: 0.9;
 }
-
-/* .buttons {
-  width: 100%;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-} */
