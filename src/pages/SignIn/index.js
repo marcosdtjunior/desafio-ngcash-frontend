@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './styles.css';
 import api from '../../services/api';
-import { setItem, getItem } from '../../utils/storage';
+import { getItem, setItem } from '../../utils/storage';
+import './styles.css';
 
 function SignIn() {
   const navigate = useNavigate();

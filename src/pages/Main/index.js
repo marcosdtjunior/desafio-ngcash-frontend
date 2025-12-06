@@ -1,8 +1,8 @@
-import './styles.css';
-import { getItem, clearAll } from '../../utils/storage';
+import { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import api from '../../services/api';
-import { useEffect, useState, useRef } from 'react';
+import { clearAll, getItem } from '../../utils/storage';
+import './styles.css';
 
 function Main() {
   const navigate = useNavigate();
